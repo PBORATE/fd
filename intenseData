@@ -1,0 +1,357 @@
+Hi Pramod,
+
+Please find the request and response. And for details , we have already provided a API Spec document. Suggest to have a quick call for any further queries.
+
+1.	Record Fetch
+URL: https://estatementuat.yesbank.in/RetreiveStatementDetails/tracking/fetchdata/Recordsfetch
+
+Request: 1
+{
+"requestData":{
+                        "customer_id":"",
+                        "account_number":"1001010000000352"
+            }
+}
+Response for Request:1
+{
+   "responseData": [   {
+      "fileID": "10000620_001_68",
+      "statementType": "CCSTMT",
+      "statementName": "Yes_Prosperity_Rewards",
+      "productType": "101",
+      "accountNumber": "1001010000000352",
+      "fromDate": "13/03/2020",
+      "toDate": "12/04/2020"
+   }],
+   "status": "success",
+   "errorDescription": ""
+}
+
+Request: 2
+{
+            "requestData":{
+                        "customer_id":"",
+                        "account_number":"1002040000000986"
+            }
+}
+Response for Request:2
+{
+   "responseData": [   {
+         "fileID": "10000628_001_108581",
+         "statementType": "CCSTMT",
+         "statementName": "Yes_First_Preferred",
+         "productType": "202",
+         "accountNumber": "1002020000643548",
+         "fromDate": "13/03/2020",
+         "toDate": "12/04/2020"
+   }],
+   "status": "success",
+   "errorDescription": ""
+}
+}
+2.	CRMRequestHandler
+URL: https://estatementuat.yesbank.in/Uniserve-CRMAPI/CRMRequestHandler
+
+Request:1
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:crm="http://crmservice.in10s.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <crm:HandleRequest>
+         <!--Optional:-->
+         <CRM_Ticket_ID>1505001</CRM_Ticket_ID>
+         <!--Optional:-->
+         <UniServe_File_ID>10000620_001_126166</UniServe_File_ID>
+         <!--Optional:-->
+         <Statement_Type>REG</Statement_Type>
+         <!--Optional:-->
+         <Customer_Email_ID>ramesh.lakshmanan@yesbank.in</Customer_Email_ID>
+         <!--Optional:-->
+         <Customer_Mobile_No>9022028614</Customer_Mobile_No>
+         <!--Optional:-->
+         <Customer_Address1>Add1</Customer_Address1>
+         <!--Optional:-->
+         <Customer_Address2>Add2</Customer_Address2>
+         <!--Optional:-->
+         <Customer_Address3>Add3</Customer_Address3>
+         <!--Optional:-->
+         <Customer_City>City</Customer_City>
+         <!--Optional:-->
+         <Pin_Code>600083</Pin_Code>
+         <!--Optional:-->
+         <Branch_Request_Flag>0</Branch_Request_Flag>
+         <!--Optional:-->
+         <Branch_Emp_Email_ID>ramesh.lakshmanan@yesbank.in</Branch_Emp_Email_ID>
+      </crm:HandleRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+Response for Request:1
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:HandleRequestResponse xmlns:ns2="http://crmservice.in10s.com/">
+         <Results>
+            <CRMTicketId>1505001</CRMTicketId>
+            <Comments>Request(s) accepted successfully</Comments>
+            <File_Stream/>
+            <File_Type/>
+            <Status>SUCCESS</Status>
+         </Results>
+      </ns2:HandleRequestResponse>
+   </S:Body>
+</S:Envelope>
+
+
+Regards,
+
+Rejith Kumar P
+Business and Digital Technology Solutions Group
+YES BANK Ltd
+Cell : +91 98197 07859
+Email:  rejith.p@yesbank.in
+ 
+
+From: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in> 
+Sent: Thursday, August 06, 2020 12:01
+To: Ramesh Lakshmanan (BDTS) <ramesh.lakshmanan@yesbank.in>; Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>
+Subject: RE: Intense Data
+
+Hi Ramesh,
+
+I have replied to this mail stating that the request response is not properly given. 1 file contains log data. Please share proper request and response for both APIs and also share the specifications. Can you please confirm by when the services will be available in UAT post issue rectification.
+
+Regards,
+
+Pramod Sonone
+EVP – BDTS
++91 9869405748
+(Working from Home)
+
+From: Ramesh Lakshmanan (BDTS) <ramesh.lakshmanan@yesbank.in> 
+Sent: Thursday, August 06, 2020 11:54 AM
+To: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in>; Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>
+Subject: RE: Intense Data
+
+Dear Pramod,
+We are working to fix the existing API issue in UAT. Already we have shared the sample request/response, find the attached mail.
+
+Please find the below UAT URL, subscribe the same from Internal Data Power.
+https://universeuat.yesbank.in:444/app/dpu/CRMRequestHandlerService
+https://universeuat.yesbank.in:444/app/dpu/RetreiveStatementDetails/tracking/fetchdata/Recordsfetch
+
+
+Thanks & Regards,
+Ramesh Lakshmanan (BDTS)
+YES BANK Limited. 
+3rd Floor, Tower C, One Indiabulls Park, 
+Plot No. 14,  3rd Main Road, Ambattur, 
+Chennai – 600058
+Ext: 159353
+
+ 
+
+From: Pramod Sonone (BDTS) 
+Sent: Wednesday, August 05, 2020 22:10
+To: Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>; Ramesh Lakshmanan (BDTS) <ramesh.lakshmanan@yesbank.in>
+Subject: RE: Intense Data
+
+Hi Rejith,
+
+Can you please share the details asap. This is holding up development of Service Digitization process.
+
+Regards,
+
+Pramod Sonone
+EVP – BDTS
++91 9869405748
+(Working from Home)
+
+From: Pramod Sonone (BDTS) 
+Sent: Tuesday, August 04, 2020 11:05 AM
+To: Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>; Ramesh Lakshmanan (BDTS) <ramesh.lakshmanan@yesbank.in>
+Subject: RE: Intense Data
+
+Hi Rejith,
+
+Looks like the files have got mixed up with logs. Can you please share wsdl files.  Are these SOAP APIs or REST.
+
+Regards,
+
+Pramod Sonone
+EVP – BDTS
++91 9869405748
+(Working from Home)
+
+From: Rejith Kumar P (BDTS) <rejith.p@yesbank.in> 
+Sent: Tuesday, August 04, 2020 8:37 AM
+To: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>; Ramesh Lakshmanan (BDTS) <ramesh.lakshmanan@yesbank.in>
+Subject: RE: Intense Data
+
+HI Pramod,
+
+Please find the request and response for FD advice. 
+
+
+Regards,
+
+Rejith Kumar P
+Business and Digital Technology Solutions Group
+YES BANK Ltd
+Cell : +91 98197 07859
+Email:  rejith.p@yesbank.in
+ 
+
+From: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in> 
+Sent: Monday, August 03, 2020 16:59
+To: Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>; Ramesh Lakshmanan (BDTS) <ramesh.lakshmanan@yesbank.in>
+Subject: RE: Intense Data
+
+Hi Rejith,
+
+Please share the request and response asap since we are unable to start development in its absence. Please confirm, if the statements available on intense are pre-generated statements or we can fetch statements as per customers choice.
+
+Regards,
+
+Pramod Sonone
+EVP – BDTS
++91 9869405748
+(Working from Home)
+
+From: Rejith Kumar P (BDTS) <rejith.p@yesbank.in> 
+Sent: Friday, July 31, 2020 12:06 PM
+To: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>; Ramesh Lakshmanan (BDTS) <ramesh.lakshmanan@yesbank.in>
+Subject: RE: Intense Data
+
+Hi Pramod,
+
+Regeneration / Duplicate statement generation API is already on-boarded in ESB IDP. 
+
+Data availability as follows
+Combined Statements – November 2019 onwards
+CASA – 31st  March 2020 onwards
+FD Advices – 31st March 2020 onwards
+
+Data availability beyond the above dates has taken as a separate project and will keep you updated with timeliness. 
+
+Service	IDP UAT URL
+Recordsfetch	https://universeuat.yesbank.in:444/app/dpu/RetreiveStatementDetails/tracking/fetchdata/Recordsfetch
+
+CRMRequestHandler	https://universeuat.yesbank.in:444/app/dpu/CRMRequestHandlerService
+
+
+You can consume these services by subscribing the same through IDP. Will share the request and response packets for FD, CASA and Combined from UAT env shortly.
+
+P.S – Credit card functionality is already live through Genie. 
+
+Regards,
+
+Rejith Kumar P
+Business and Digital Technology Solutions Group
+YES BANK Ltd
+Cell : +91 98197 07859
+Email:  rejith.p@yesbank.in
+ 
+
+From: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in> 
+Sent: Friday, July 31, 2020 11:56
+To: Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>
+Subject: RE: Intense Data
+
+Hi Rejith,
+
+Please confirm of the Combined and CASA configuration changes have been completed in Intense. From what date data is currently available in Intense. Also, please confirm timeline by when the FCR integration will be completed.
+
+Regards,
+
+Pramod Sonone
+EVP – BDTS
++91 9869405748
+We start a new journey, backed by India’s best
+#Yes for You
+
+From: Rejith Kumar P (BDTS) 
+Sent: Wednesday, July 22, 2020 1:53 PM
+To: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>; Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>
+Subject: RE: Intense Data
+
+Hi Pramod,
+
+Attached the API spec for duplicate / regeneration functionality through Intense .
+
+API  is already onboarded in ESB and please find ESB On-Boarding Details
+
+Service	IDP UAT URL
+Recordsfetch	https://universeuat.yesbank.in:444/app/dpu/RetreiveStatementDetails/tracking/fetchdata/Recordsfetch
+
+CRMRequestHandler	https://universeuat.yesbank.in:444/app/dpu/CRMRequestHandlerService
+
+
+
+It requires configuration changes in Intense to enable the templates and below are the ETA 
+
+Combined – 22-Jul
+CASA – 29-Jul
+FD – 5-Aug.
+
+As I mentioned, this API will support for already generated outputs. You may integrate the same as an initial step.
+
+For adhoc requests for any other periods,  requirement has been placed with Application Vendor to pull the data directly from FCR and process the output with a defined TAT.
+
+Regards,
+
+Rejith Kumar P
+Business and Digital Technology Solutions Group
+YES BANK Ltd
+Cell : +91 98197 07859
+Email:  rejith.p@yesbank.in
+ 
+
+From: Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in> 
+Sent: Wednesday, July 22, 2020 13:42
+To: Pramod Sonone (BDTS) <pramod.sonone@yesbank.in>; Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>; Krishnan NS (BDTS) <krishnan.ns@yesbank.in>
+Subject: RE: Intense Data
+
+
+++ NSK
+
+
+Thanks and Regards,
+________________________________________
+Shailendra Pendse - President - Business and Digital Technology Solutions Group
+YES BANK Ltd. 
+YES BANK Tower, IFC 2, 8th Floor, Elphinstone (W), Senapati Bapat Marg, Mumbai - 400 013
+Ph.: 91-2233477337 Mob: 91-9967578383
+
+ 
+________________________________________
+“Please consider the environment before printing this e-mail - Say YES to Responsible Banking!”
+
+From: Pramod Sonone (BDTS) 
+Sent: Wednesday, July 22, 2020 1:39 PM
+To: Rejith Kumar P (BDTS) <rejith.p@yesbank.in>
+Cc: Shailendra Pendse (BDTS) <shailendra.pendse@yesbank.in>; Santosh Dhopte (BDTS) <santosh.dhopte@yesbank.in>; Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>
+Subject: Intense Data
+
+Hi Rejith,
+
+I understand that the intense API is currently not in UAT (For CASA and FD). Request you to kindly confirm by when the same can be deployed. If it has already been deployed, please share ESB/IDP endpoints. Also, please confirm if the respective LOV for CASA/FD have been created.
+
+Regards,
+
+Pramod Sonone
+EVP – BDTS
++91 9869405748
+(Working from Home)
+Vineet Venugopalan (BDTS) <vineet.venugopalan@yesbank.in>
+
+
+Please consider the environment before printing this e-mail - Say YES to Responsible Banking! 
