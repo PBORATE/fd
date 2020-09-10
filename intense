@@ -5,3 +5,42 @@ general id 1fe649fee91811eaa205aeccf25ecd49
 https://10.236.44.35:2443/internaladmin/sd/appiyo/d/workflows/1faef936e91811eab179aeccf25ecd49/execute?projectId=ff0ae4a6884711e9b16676fb2f2488b6
 
 
+
+
+{
+    "ApplicationId": "ff0ae4a6884711e9b16676fb2f2488b6",
+    "Error": "0",
+    "ErrorCode": "",
+    "ErrorMessage": "",
+    "ProcessId": "1fe649fee91811eaa205aeccf25ecd49",
+    "ProcessInstanceId": "14c69bb0f35d11ea914a76b3d0cb866d",
+    "ProcessName": "intense",
+    "ProcessVariables": {
+        "accountNumber": "1001010000000352",
+        "apiResponse": {
+            "message": "success",
+            "status": "success",
+            "statusCode": 200
+        },
+        "errorCode": 200,
+        "errorMessage": "{\"payload\":{\"twoWayAuth\":{\"response\":\"{\\\"responseData\\\":[{\\\"fileID\\\":\\\"10000628_001_68\\\",\\\"statementType\\\":\\\"CCSTMT\\\",\\\"statementName\\\":\\\"Yes_Prosperity_Rewards\\\",\\\"productType\\\":\\\"101\\\",\\\"accountNumber\\\":\\\"1001010000000352\\\",\\\"fromDate\\\":\\\"13\\/03\\/2020\\\",\\\"toDate\\\":\\\"12\\/04\\/2020\\\"}],\\\"status\\\":\\\"success\\\",\\\"errorDescription\\\":\\\"\\\"}\",\"statusCode\":200}},\"status\":true}",
+        "intenseResConfig": [
+            {
+                "accountNumber": "1001010000000352",
+                "fileID": "",
+                "fromDate": "13/03/2020",
+                "productType": "101",
+                "statementName": "Yes_Prosperity_Rewards",
+                "statementType": "CCSTMT",
+                "toDate": "12/04/2020"
+            }
+        ],
+        "isError": false
+    },
+    "Status": "Execution Completed",
+    "WorkflowId": "1faef936e91811eab179aeccf25ecd49"
+}
+
+
+
+
