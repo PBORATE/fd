@@ -1,0 +1,886 @@
+{
+   "ApplicationId" : "ff0ae4a6884711e9b16676fb2f2488b6",
+   "Error" : "0",
+   "ErrorCode" : "",
+   "ErrorMessage" : "",
+   "ProcessId" : "43560e0e757011eaa08e6adcd8a925ce",
+   "ProcessInstanceId" : "9c14090ef74a11eaae8a4270668d4ada",
+   "ProcessName" : "FCR Get All Account Details",
+   "ProcessVariables" : {
+      "accountDetails" : [
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000190600008871",
+            "accountStatus" : "8",
+            "accountTitle" : "REETA S PANIGRAHI",
+            "accountType" : "SA",
+            "balance" : "36199234.31",
+            "bookBalance" : "36232754.36",
+            "branchCode" : "1",
+            "installmentAmount" : "0",
+            "interestRate" : "0",
+            "maturityAmount" : "0",
+            "nomineeName" : "TUTUMA S PANIGRAHI  ",
+            "openDate" : "2007-11-06",
+            "productCode" : "906",
+            "productName" : "SAVINGS ACCOUNT - STAFF",
+            "termPeriod" : ""
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140100051783",
+            "accountType" : "FD",
+            "balance" : "100000",
+            "branchCode" : "1",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140100051793",
+            "accountType" : "FD",
+            "balance" : "100000",
+            "branchCode" : "1",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140100053378",
+            "accountType" : "FD",
+            "balance" : "5000",
+            "branchCode" : "1",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140400040727",
+            "accountType" : "FD",
+            "balance" : "10770.12",
+            "branchCode" : "1",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140400040737",
+            "accountType" : "FD",
+            "balance" : "10770.12",
+            "branchCode" : "1",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140400040747",
+            "accountType" : "FD",
+            "balance" : "53851.67",
+            "branchCode" : "1",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140400042565",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "1",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140400042618",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "1",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000140900004642",
+            "accountType" : "FD",
+            "balance" : "10001",
+            "branchCode" : "1",
+            "productCode" : "409"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000144000001327",
+            "accountType" : "FD",
+            "balance" : "100000",
+            "branchCode" : "1",
+            "productCode" : "440"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "000148000000167",
+            "accountType" : "FD",
+            "balance" : "13332",
+            "branchCode" : "1",
+            "productCode" : "480"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008625",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008635",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008645",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008655",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008665",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008675",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008685",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008708",
+            "accountType" : "FD",
+            "balance" : "11000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008718",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008811",
+            "accountType" : "FD",
+            "balance" : "15000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008831",
+            "accountType" : "FD",
+            "balance" : "15000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008841",
+            "accountType" : "FD",
+            "balance" : "15000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008851",
+            "accountType" : "FD",
+            "balance" : "15000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008861",
+            "accountType" : "FD",
+            "balance" : "45000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008881",
+            "accountType" : "FD",
+            "balance" : "12001",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008891",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100008971",
+            "accountType" : "FD",
+            "balance" : "13000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009012",
+            "accountType" : "FD",
+            "balance" : "15555",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009022",
+            "accountType" : "FD",
+            "balance" : "2500",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009042",
+            "accountType" : "FD",
+            "balance" : "3000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009052",
+            "accountType" : "FD",
+            "balance" : "3600",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009062",
+            "accountType" : "FD",
+            "balance" : "8963",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009072",
+            "accountType" : "FD",
+            "balance" : "3200",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009082",
+            "accountType" : "FD",
+            "balance" : "3000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009135",
+            "accountType" : "FD",
+            "balance" : "2500",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009145",
+            "accountType" : "FD",
+            "balance" : "2000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009155",
+            "accountType" : "FD",
+            "balance" : "2000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009165",
+            "accountType" : "FD",
+            "balance" : "2000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009175",
+            "accountType" : "FD",
+            "balance" : "2000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009185",
+            "accountType" : "FD",
+            "balance" : "2000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009195",
+            "accountType" : "FD",
+            "balance" : "2000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009208",
+            "accountType" : "FD",
+            "balance" : "5000",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040100009218",
+            "accountType" : "FD",
+            "balance" : "14924.84",
+            "branchCode" : "70",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040400030780",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040400030790",
+            "accountType" : "FD",
+            "balance" : "15555",
+            "branchCode" : "70",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040400030820",
+            "accountType" : "FD",
+            "balance" : "14924.84",
+            "branchCode" : "70",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040400030840",
+            "accountType" : "FD",
+            "balance" : "13190.15",
+            "branchCode" : "70",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040400030850",
+            "accountType" : "FD",
+            "balance" : "4405759.71",
+            "branchCode" : "70",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040900002225",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "409"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040900002235",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "409"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040900002245",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "70",
+            "productCode" : "409"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040900002255",
+            "accountType" : "FD",
+            "balance" : "15555",
+            "branchCode" : "70",
+            "productCode" : "409"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007040900002275",
+            "accountType" : "FD",
+            "balance" : "25000",
+            "branchCode" : "70",
+            "productCode" : "409"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007048000000233",
+            "accountType" : "FD",
+            "balance" : "25330",
+            "branchCode" : "70",
+            "productCode" : "480"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "007840900004109",
+            "accountType" : "FD",
+            "balance" : "10001",
+            "branchCode" : "78",
+            "productCode" : "409"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100001977",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100001987",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002018",
+            "accountType" : "FD",
+            "balance" : "12001",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002038",
+            "accountType" : "FD",
+            "balance" : "11000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002058",
+            "accountType" : "FD",
+            "balance" : "10200",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002068",
+            "accountType" : "FD",
+            "balance" : "54500",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002078",
+            "accountType" : "FD",
+            "balance" : "27500",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002101",
+            "accountType" : "FD",
+            "balance" : "12001",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002111",
+            "accountType" : "FD",
+            "balance" : "12003",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002121",
+            "accountType" : "FD",
+            "balance" : "12006",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002131",
+            "accountType" : "FD",
+            "balance" : "12001",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002141",
+            "accountType" : "FD",
+            "balance" : "15555",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002151",
+            "accountType" : "FD",
+            "balance" : "3600",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002560",
+            "accountType" : "FD",
+            "balance" : "100000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002570",
+            "accountType" : "FD",
+            "balance" : "100000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002580",
+            "accountType" : "FD",
+            "balance" : "1000000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002590",
+            "accountType" : "FD",
+            "balance" : "100000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002600",
+            "accountType" : "FD",
+            "balance" : "500000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002610",
+            "accountType" : "FD",
+            "balance" : "250000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002620",
+            "accountType" : "FD",
+            "balance" : "100000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002630",
+            "accountType" : "FD",
+            "balance" : "55000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002640",
+            "accountType" : "FD",
+            "balance" : "10000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002650",
+            "accountType" : "FD",
+            "balance" : "25000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002660",
+            "accountType" : "FD",
+            "balance" : "50000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002670",
+            "accountType" : "FD",
+            "balance" : "23100",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002680",
+            "accountType" : "FD",
+            "balance" : "50000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002690",
+            "accountType" : "FD",
+            "balance" : "8572",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040100002703",
+            "accountType" : "FD",
+            "balance" : "50000",
+            "branchCode" : "100",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040400018864",
+            "accountType" : "FD",
+            "balance" : "16894.55",
+            "branchCode" : "100",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040400018917",
+            "accountType" : "FD",
+            "balance" : "2771.77",
+            "branchCode" : "100",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040400018927",
+            "accountType" : "FD",
+            "balance" : "3837.81",
+            "branchCode" : "100",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "010040400018937",
+            "accountType" : "FD",
+            "balance" : "156072.81",
+            "branchCode" : "100",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "159.32",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "164.42",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "157.58",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "165.11",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "10001",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "164.48",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "190.41",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "164.49",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "171.67",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "036340100000751",
+            "accountType" : "FD",
+            "balance" : "193.81",
+            "branchCode" : "363",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "040240100014441",
+            "accountType" : "FD",
+            "balance" : "2501",
+            "branchCode" : "402",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "040240100017893",
+            "accountType" : "FD",
+            "balance" : "3000",
+            "branchCode" : "402",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "040240100017906",
+            "accountType" : "FD",
+            "balance" : "3000",
+            "branchCode" : "402",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "040240400088530",
+            "accountType" : "FD",
+            "balance" : "25000",
+            "branchCode" : "402",
+            "productCode" : "404"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "041940100009010",
+            "accountType" : "FD",
+            "balance" : "160.85",
+            "branchCode" : "419",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "041940100009010",
+            "accountType" : "FD",
+            "balance" : "167.23",
+            "branchCode" : "419",
+            "productCode" : "401"
+         },
+         {
+            "accountCustomerRelationship" : "SOW",
+            "accountNumber" : "041940100009010",
+            "accountType" : "FD",
+            "balance" : "190.82",
+            "branchCode" : "419",
+            "productCode" : "401"
+         }
+      ],
+      "accountType" : null,
+      "apiResponse" : {
+         "status" : "success",
+         "statusCode" : 200
+      },
+      "errorCode" : 200,
+      "errorMessage" : "{\"payload\":{\"twoWayAuth\":{\"response\":\"{\\\"GetAllAccountsRes\\\":{\\\"ResHdr\\\":{\\\"ConsumerContext\\\":{\\\"RequesterID\\\":\\\"MFN\\\"},\\\"ServiceContext\\\":{\\\"ServiceName\\\":\\\"CustomerManagement\\\",\\\"ReqRefNum\\\":\\\"1600171040643\\\",\\\"ReqRefTimeStamp\\\":\\\"2020-09-15T11:57:20\\\",\\\"ServiceVersionNo\\\":\\\"1.0\\\"},\\\"ServiceResponse\\\":{\\\"EsbResTimeStamp\\\":\\\"2020-09-15 17:26:54.939089\\\",\\\"EsbResStatus\\\":\\\"0\\\"}},\\\"ResBody\\\":{\\\"AccountTypeList\\\":[{\\\"accountType\\\":\\\"SA\\\",\\\"AccountDetails\\\":[{\\\"AccountNumber\\\":\\\"000190600008871 \\\",\\\"Balance\\\":\\\"36199234.31\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"ProductName\\\":\\\"SAVINGS ACCOUNT - STAFF\\\",\\\"NomineeName\\\":\\\"TUTUMA S PANIGRAHI  \\\",\\\"InstallmentAmount\\\":\\\"0\\\",\\\"InterestRate\\\":\\\"0\\\",\\\"MaturityAmount\\\":\\\"0\\\",\\\"TermPeriod\\\":0,\\\"AccountStatus\\\":8,\\\"BranchCode\\\":1,\\\"ProductCode\\\":906,\\\"BookBalance\\\":\\\"36232754.36\\\",\\\"OpenDate\\\":\\\"2007-11-06\\\",\\\"AccountTitle\\\":\\\"REETA S PANIGRAHI\\\"}]},{\\\"accountType\\\":\\\"FD\\\",\\\"AccountDetails\\\":[{\\\"AccountNumber\\\":\\\"000140100051783 \\\",\\\"Balance\\\":\\\"100000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"000140100051793 \\\",\\\"Balance\\\":\\\"100000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"000140100053378 \\\",\\\"Balance\\\":\\\"5000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"000140400040727 \\\",\\\"Balance\\\":\\\"10770.12\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"000140400040737 \\\",\\\"Balance\\\":\\\"10770.12\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"000140400040747 \\\",\\\"Balance\\\":\\\"53851.67\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"000140400042565 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"000140400042618 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"000140900004642 \\\",\\\"Balance\\\":\\\"10001\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":409},{\\\"AccountNumber\\\":\\\"000144000001327 \\\",\\\"Balance\\\":\\\"100000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":440},{\\\"AccountNumber\\\":\\\"000148000000167 \\\",\\\"Balance\\\":\\\"13332\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":1,\\\"ProductCode\\\":480},{\\\"AccountNumber\\\":\\\"007040100008625 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008635 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008645 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008655 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008665 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008675 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008685 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008708 \\\",\\\"Balance\\\":\\\"11000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008718 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008811 \\\",\\\"Balance\\\":\\\"15000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008831 \\\",\\\"Balance\\\":\\\"15000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008841 \\\",\\\"Balance\\\":\\\"15000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008851 \\\",\\\"Balance\\\":\\\"15000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008861 \\\",\\\"Balance\\\":\\\"45000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008881 \\\",\\\"Balance\\\":\\\"12001\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008891 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100008971 \\\",\\\"Balance\\\":\\\"13000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009012 \\\",\\\"Balance\\\":\\\"15555\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009022 \\\",\\\"Balance\\\":\\\"2500\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009042 \\\",\\\"Balance\\\":\\\"3000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009052 \\\",\\\"Balance\\\":\\\"3600\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009062 \\\",\\\"Balance\\\":\\\"8963\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009072 \\\",\\\"Balance\\\":\\\"3200\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009082 \\\",\\\"Balance\\\":\\\"3000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009135 \\\",\\\"Balance\\\":\\\"2500\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009145 \\\",\\\"Balance\\\":\\\"2000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009155 \\\",\\\"Balance\\\":\\\"2000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009165 \\\",\\\"Balance\\\":\\\"2000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009175 \\\",\\\"Balance\\\":\\\"2000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009185 \\\",\\\"Balance\\\":\\\"2000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009195 \\\",\\\"Balance\\\":\\\"2000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009208 \\\",\\\"Balance\\\":\\\"5000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040100009218 \\\",\\\"Balance\\\":\\\"14924.84\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"007040400030780 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"007040400030790 \\\",\\\"Balance\\\":\\\"15555\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"007040400030820 \\\",\\\"Balance\\\":\\\"14924.84\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"007040400030840 \\\",\\\"Balance\\\":\\\"13190.15\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"007040400030850 \\\",\\\"Balance\\\":\\\"4405759.71\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"007040900002225 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":409},{\\\"AccountNumber\\\":\\\"007040900002235 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":409},{\\\"AccountNumber\\\":\\\"007040900002245 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":409},{\\\"AccountNumber\\\":\\\"007040900002255 \\\",\\\"Balance\\\":\\\"15555\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":409},{\\\"AccountNumber\\\":\\\"007040900002275 \\\",\\\"Balance\\\":\\\"25000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":409},{\\\"AccountNumber\\\":\\\"007048000000233 \\\",\\\"Balance\\\":\\\"25330\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":70,\\\"ProductCode\\\":480},{\\\"AccountNumber\\\":\\\"007840900004109 \\\",\\\"Balance\\\":\\\"10001\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":78,\\\"ProductCode\\\":409},{\\\"AccountNumber\\\":\\\"010040100001977 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100001987 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002018 \\\",\\\"Balance\\\":\\\"12001\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002038 \\\",\\\"Balance\\\":\\\"11000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002058 \\\",\\\"Balance\\\":\\\"10200\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002068 \\\",\\\"Balance\\\":\\\"54500\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002078 \\\",\\\"Balance\\\":\\\"27500\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002101 \\\",\\\"Balance\\\":\\\"12001\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002111 \\\",\\\"Balance\\\":\\\"12003\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002121 \\\",\\\"Balance\\\":\\\"12006\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002131 \\\",\\\"Balance\\\":\\\"12001\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002141 \\\",\\\"Balance\\\":\\\"15555\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002151 \\\",\\\"Balance\\\":\\\"3600\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002560 \\\",\\\"Balance\\\":\\\"100000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002570 \\\",\\\"Balance\\\":\\\"100000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002580 \\\",\\\"Balance\\\":\\\"1000000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002590 \\\",\\\"Balance\\\":\\\"100000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002600 \\\",\\\"Balance\\\":\\\"500000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002610 \\\",\\\"Balance\\\":\\\"250000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002620 \\\",\\\"Balance\\\":\\\"100000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002630 \\\",\\\"Balance\\\":\\\"55000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002640 \\\",\\\"Balance\\\":\\\"10000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002650 \\\",\\\"Balance\\\":\\\"25000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002660 \\\",\\\"Balance\\\":\\\"50000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002670 \\\",\\\"Balance\\\":\\\"23100\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002680 \\\",\\\"Balance\\\":\\\"50000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002690 \\\",\\\"Balance\\\":\\\"8572\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040100002703 \\\",\\\"Balance\\\":\\\"50000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"010040400018864 \\\",\\\"Balance\\\":\\\"16894.55\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"010040400018917 \\\",\\\"Balance\\\":\\\"2771.77\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"010040400018927 \\\",\\\"Balance\\\":\\\"3837.81\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"010040400018937 \\\",\\\"Balance\\\":\\\"156072.81\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":100,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"159.32\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"164.42\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"157.58\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"165.11\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"10001\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"164.48\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"190.41\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"164.49\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"171.67\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"036340100000751 \\\",\\\"Balance\\\":\\\"193.81\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":363,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"040240100014441 \\\",\\\"Balance\\\":\\\"2501\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":402,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"040240100017893 \\\",\\\"Balance\\\":\\\"3000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":402,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"040240100017906 \\\",\\\"Balance\\\":\\\"3000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":402,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"040240400088530 \\\",\\\"Balance\\\":\\\"25000\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":402,\\\"ProductCode\\\":404},{\\\"AccountNumber\\\":\\\"041940100009010 \\\",\\\"Balance\\\":\\\"160.85\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":419,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"041940100009010 \\\",\\\"Balance\\\":\\\"167.23\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":419,\\\"ProductCode\\\":401},{\\\"AccountNumber\\\":\\\"041940100009010 \\\",\\\"Balance\\\":\\\"190.82\\\",\\\"AccountCustomerRelationship\\\":\\\"SOW\\\",\\\"BranchCode\\\":419,\\\"ProductCode\\\":401}]}]}}}\",\"statusCode\":200}},\"status\":true}",
+      "isError" : false,
+      "level" : 6,
+      "testResponse" : {
+         "status" : "success",
+         "statusCode" : 200
+      }
+   },
+   "Status" : "Execution Completed",
+   "WorkflowId" : "4342eda6757011ea9f296adcd8a925ce"
+}
