@@ -1,0 +1,36 @@
+getsession details:
+
+http://128.199.227.253/internaladmin/sd/appiyo/d/workflows/2dcb7546b14411eaa34acea256932e5c/execute?projectId=ff0ae4a6884711e9b16676fb2f2488b6
+
+header : authentication-token    JINyrr7gPzholWvDF1jEWK7CXNN9il4a2Ph/9SroOvIfXZJCEMLuKFgxM9RtZPcl
+ processVariables     {"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"2dcb7546b14411eaa34acea256932e5c","processId":"5995bfc0cf1711e9933d8e7a151d5229","ProcessVariables":{"sessionId":"e1701fb12640c8b1dca19bb798801041b090a53bbc8d77b2863795a3a59f69b","srType":"1016"}}
+ 
+ Content-Type    application/x-www-form-urlencoded
+ 
+ 
+ get addition data for fd and casa:
+ 
+ http://128.199.227.253/internaladmin/sd/appiyo/d/workflows/2d588146fca611ea9abd0242ac110003/execute?projectId=ff0ae4a6884711e9b16676fb2f2488b6
+ 
+ processVariables {"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"2d588146fca611ea9abd0242ac110003","processId":"2d8189f6fca611eaa0c30242ac110003","ProcessVariables":{"sessionId":"e1701fb12640c8b1dca19bb798801041b090a53bbc8d77b2863795a3a59f69b","srType":"1016"}}
+ 
+ 
+ create sr:
+ 
+ http://128.199.227.253/internaladmin/sd/appiyo/d/workflows/75e5596ac95e11e9933d8e7a151d5229/execute?projectId=ff0ae4a6884711e9b16676fb2f2488b6
+ 
+ processVariables   {"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"75e5596ac95e11e9933d8e7a151d5229","processId":"01ea2356c99a11e9933d8e7a151d5229","ProcessVariables":{"headers":{"refId":"f6c449a886249602c86925f66f755b6cefc9feca7e6f5e1b8c18315a523e0","channel":"SS","appId":"app2"},"srDetails":{"srType":1016},"fdAdvice":[{"accountNumber":"1001010000000352","fileId":"66666666","fromDate":"2020-03-13","toDate":"2020-04-12","accountType":"Fixed Deposite"},{"accountNumber":"1001010000000354","fileId":"7777777","fromDate":"2020-04-01","toDate":"2020-05-02","accountType":"Fixed Deposite"}]}}
+ 
+ 
+ submit sr:
+ 
+ http://128.199.227.253/internaladmin/sd/appiyo/d/workflows/e254d6ead55f11e9933d8e7a151d5229/execute?projectId=ff0ae4a6884711e9b16676fb2f2488b6
+ 
+ processVariables    {"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"e254d6ead55f11e9933d8e7a151d5229","processId":"ee966c98d55f11e9933d8e7a151d5229","ProcessVariables":{"srId":"SR20200924100033SS","apiUniqueReqId":"1600949922312"}}
+ 
+ 
+ 
+ intense :
+ 
+ 
+ 
