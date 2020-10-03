@@ -1,3 +1,18 @@
+
+Approved message for casa statement and FD advices
+
+Msg no 1 – Regret inconvenience, We are unable to retrieve the statement for the selected account no. Please contact your RM/nearest branch for further assistance. 
+Scenario - In-case API failed to receive account details from Intense, we need to show this message. customer selected account number for which intense does not hold any statement
+
+Msg no 2 – Account Statement/Fixed Deposit details are available with effective 01st Nov’19. Please contact the your RM / nearest branch for details prior to this date. 
+Note – On page getallaccounts above note to be mentioned
+
+
+
+
+
+
+
 https://yblmeet.webex.com/webappng/sites/yblmeet/meeting/download/276d805da8686b09d4b5f4cd06147314
 
 workflow    1faef936e91811eab179aeccf25ecd49
