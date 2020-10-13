@@ -1,0 +1,219 @@
+GET SESSION DETAILS:
+
+Request:  {"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"2dcb7546b14411eaa34acea256932e5c","processId":"5995bfc0cf1711e9933d8e7a151d5229","ProcessVariables":{"sessionId":"e1701fb12640c8b1dca19bb798801041b090a53bbc8d77b2863795a3a59f69b","srType":"1016"}}
+
+Response: 
+
+{
+    "ApplicationId": "ff0ae4a6884711e9b16676fb2f2488b6",
+    "Error": "0",
+    "ErrorCode": "200",
+    "ErrorMessage": "",
+    "ProcessId": "5995bfc0cf1711e9933d8e7a151d5229",
+    "ProcessInstanceId": "b250b0160a1211eb8e1e0242ac110003",
+    "ProcessName": "SSP :: Get Session Details",
+    "ProcessVariables": {
+        "addressData": null,
+        "annualIncome": null,
+        "cKycDt": "",
+        "casaAccountDetails": null,
+        "countryData": null,
+        "custId": "000006651",
+        "custName": "",
+        "custType": "",
+        "emailUpdate": {
+            "maskedOldEmail": null,
+            "oldEmail": "rajesh.sadhu@appiyo.com"
+        },
+        "fdAccountDetails": [
+            {
+                "accountNumber": "12345678909876",
+                "accountType": "Fixed Deposite",
+                "balance": null
+            }
+        ],
+        "guardianRelationData": null,
+        "interestInstructions": null,
+        "isAuthorizationRequired": false,
+        "isCkycLatest": false,
+        "isExpiredPoa": false,
+        "isExpiredPoi": false,
+        "isPanRequired": false,
+        "isValidPoa": false,
+        "isValidPoi": false,
+        "landLineUpdate": {
+            "maskedLandLineNumber": null,
+            "oldNumber": "022-44449956"
+        },
+        "maritalStatus": "",
+        "maskedCustId": "******651",
+        "maskedEmailId": "",
+        "mdmEmail": "rajesh.sadhu@appiyo.com",
+        "mdmPan": "",
+        "natureOfIndustry": null,
+        "natureOfIndustry2": null,
+        "natureOfIndustry3": null,
+        "nomineeRelationData": null,
+        "panExist": false,
+        "politicalExposure": null,
+        "principleInstructions": null,
+        "productTest": 0,
+        "profession": null,
+        "reKycDt": "",
+        "residenceType": null,
+        "seniorCitizen": false,
+        "sourceOfFunds": null,
+        "srcOfFunds2": null,
+        "srcOfFunds3": null,
+        "totalFDBalance ": 0,
+        "transactionData": null
+    },
+    "Status": "Execution Completed",
+    "WorkflowId": "f73014cac99911e9933d8e7a151d5229"
+}
+
+
+
+
+
+
+Get additional data for fd and casa:
+
+
+Request :  {"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"2d588146fca611ea9abd0242ac110003","processId":"2d8189f6fca611eaa0c30242ac110003","ProcessVariables":{"sessionId":"e1701fb12640c8b1dca19bb798801041b090a53bbc8d77b2863795a3a59f69b","srType":"1016"}}
+
+
+
+
+Response :  
+
+{
+    "ApplicationId": "ff0ae4a6884711e9b16676fb2f2488b6",
+    "Error": "0",
+    "ErrorCode": "200",
+    "ErrorMessage": "",
+    "ProcessId": "2d8189f6fca611eaa0c30242ac110003",
+    "ProcessInstanceId": "8d01a1200a1311ebac940242ac110003",
+    "ProcessName": "SSP:: Get Additional Data",
+    "ProcessVariables": {
+        "errorCode": "200",
+        "intenseData": [
+            {
+                "accountNumber": "12345678909876",
+                "fileID": "66666666",
+                "fromDate": "13/03/2020",
+                "toDate": "12/04/2020"
+            },
+            {
+                "accountNumber": "98765432101234",
+                "fileID": "7777777",
+                "fromDate": "01/04/2020",
+                "toDate": "02/05/2020"
+            }
+        ]
+    },
+    "Status": "Execution Completed",
+    "WorkflowId": "2d588146fca611ea9abd0242ac110003"
+}
+
+
+create sr:
+request :
+
+
+
+{"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"75e5596ac95e11e9933d8e7a151d5229","processId":"01ea2356c99a11e9933d8e7a151d5229","ProcessVariables":{"headers":{"refId":"36fbe1aa3d1948a76ea7ad7457b3cf73fc98d96687b6878e2f9af1bba81b4268","channel":"SS","appId":"app2"},"srDetails":{"srType":1015},"statementAccounts":[{"accountNumber":"12345678909876","fileId":"66666666","fromDate":"2020-03-13","toDate":"2020-04-12","accountType":""},{"accountNumber":"98765432101234","fileId":"7777777","fromDate":"2020-04-01","toDate":"2020-05-02","accountType":""}]}}
+
+
+response :
+
+{
+   "ApplicationId" : "ff0ae4a6884711e9b16676fb2f2488b6",
+   "Error" : "0",
+   "ErrorCode" : "200",
+   "ErrorMessage" : "Request created successfully",
+   "ProcessId" : "01ea2356c99a11e9933d8e7a151d5229",
+   "ProcessInstanceId" : "0baa98440a3a11eba5d00242ac110003",
+   "ProcessName" : "SSP_Create_SR",
+   "ProcessVariables" : {
+      "apiUniqueReqId" : "",
+      "businessNew" : "",
+      "businessOld" : "",
+      "caseId" : "",
+      "comments" : "SR Created. Mobile = ******8600; Customer Id = *****6684; ",
+      "custDetails" : {
+         "accountNumber" : null,
+         "custFirstName" : null,
+         "custId" : "000006684",
+         "custLastName" : null,
+         "custName" : "000006684",
+         "email" : "rajesh.sadhu@appiyo.com",
+         "landline" : "022-44449956",
+         "mobileNumber" : "9500138600"
+      },
+      "dematOtpKey" : "",
+      "identifiers" : "Mobile = ******8600; Customer Id = *****6684; ",
+      "industryNew" : "",
+      "industryOld" : "",
+      "insertQuery" : "SET LANGUAGE British;INSERT INTO service_request(ref_id,app_id,channel,cust_id,cust_name,account_number,mobile,channel_mobile,identifiers,sr_type,created_by,client_ip,branch_id,email,created_on,updated_on,updated_by,current_status) VALUES ('36fbe1aa3d1948a76ea7ad7457b3cf73fc98d96687b6878e2f9af1bba81b4268','app2','SS','000006684','000006684',NULL,'9500138600','9500138600','Mobile = ******8600; Customer Id = *****6684; ',1015,'101','172.17.0.1','1','rajesh.sadhu@appiyo.com',SYSUTCDATETIME(),SYSUTCDATETIME(),'101',1)",
+      "moduleName" : "RL",
+      "needDocs" : true,
+      "needSupportedDocs" : false,
+      "profileOld" : null,
+      "roleId" : 0,
+      "sourceNew" : "",
+      "sourceOld" : "",
+      "srDetails" : {
+         "branchId" : "1",
+         "srId" : "SR20201009100072SS",
+         "srName" : null,
+         "srType" : 1015
+      },
+      "srId" : "SR20201009100072SS",
+      "userId" : ""
+   },
+   "Status" : "Execution Completed",
+   "WorkflowId" : "75e5596ac95e11e9933d8e7a151d5229"
+}
+
+
+
+
+
+
+
+submit sr:
+Request :
+
+{"projectId":"ff0ae4a6884711e9b16676fb2f2488b6","workflowId":"e254d6ead55f11e9933d8e7a151d5229","processId":"ee966c98d55f11e9933d8e7a151d5229","ProcessVariables":{"srId":"SR20201009100072SS","apiUniqueReqId":"1602252998713"}}
+
+
+
+Response: 
+
+{
+   "ApplicationId" : "ff0ae4a6884711e9b16676fb2f2488b6",
+   "Error" : "0",
+   "ErrorCode" : "200",
+   "ErrorMessage" : "",
+   "ProcessId" : "ee966c98d55f11e9933d8e7a151d5229",
+   "ProcessInstanceId" : "0c784ff00a3a11eb8c420242ac110003",
+   "ProcessName" : "SSR :: Submit SR",
+   "ProcessVariables" : {
+      "apiUniqueReqId" : "1602252998713",
+      "isApprovedByDvu" : false,
+      "roleId" : 0,
+      "setCaseResponse" : null,
+      "statusExternal" : "Rejected By DVU",
+      "statusText" : "1",
+      "userId" : ""
+   },
+   "Status" : "Execution Completed",
+   "WorkflowId" : "e254d6ead55f11e9933d8e7a151d5229"
+}
+
+
+
+
+
+
