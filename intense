@@ -1,4 +1,18 @@
 
+Please make  a note of following error codes:(in Identify Customer)
+
+410 - Dormant account
+411 - Entity type Validation for Non Individual
+412 -  Customer Account Relationship
+413 - Pan already exiting Validation
+414 - Minor Account Validation
+
+411 and 414 has not been incorporated.
+
+
+
+
+
 Approved message for casa statement and FD advices
 
 Msg no 1 – Regret inconvenience, We are unable to retrieve the statement for the selected account no. Please contact your RM/nearest branch for further assistance. 
